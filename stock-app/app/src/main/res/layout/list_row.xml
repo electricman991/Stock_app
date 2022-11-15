@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:layout_editor_absoluteX="3dp"
+    tools:layout_editor_absoluteY="0dp">
+
+  <TextView
+      android:id="@+id/stockName"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_margin="10dp"
+      android:layout_marginStart="20dp"
+      android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+      android:textSize="18sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      tools:text="Amazon" />
+
+  <TextView
+      android:id="@+id/changeValue"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginEnd="8dp"
+      android:paddingStart="5dp"
+      android:paddingEnd="5dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toStartOf="@id/PEValue"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.56"
+      tools:text="+5%" />
+
+  <TextView
+      android:id="@+id/currentValue"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginEnd="12dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toStartOf="@id/changeValue"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.56"
+      tools:text="1234.9" />
+
+  <TextView
+      android:id="@+id/PEValue"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginEnd="16dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.56"
+      tools:text="21.5" />
+
+</android.support.constraint.ConstraintLayout>

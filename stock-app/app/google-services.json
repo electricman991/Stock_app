@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "970378024745",
+    "project_id": "stockexchangeapp-2ec60",
+    "storage_bucket": "stockexchangeapp-2ec60.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970378024745:android:533009fdfedf1666fe0938",
+        "android_client_info": {
+          "package_name": "com.example.stockexchangeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "970378024745-sdoedkc0o940nr635snmjb0f429nen6c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtmAHNzLpvHtp30E-ONiB7wi7AnY6XhLc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "970378024745-sdoedkc0o940nr635snmjb0f429nen6c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
