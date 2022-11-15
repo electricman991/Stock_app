@@ -22,8 +22,8 @@ class MainActivity : AppCompatActivity(), SharedPreferences.OnSharedPreferenceCh
 
   private val mAdapter = StockListAdapter(ArrayList())
   private lateinit var sharedPreferences: SharedPreferences
-  private val options = PusherOptions().setCluster("us3")
-  private val pusher = Pusher("251e9807a9f259a76af1", options)
+  private val options = PusherOptions().setCluster("PUSHER_APP_CLUSTER")
+  private val pusher = Pusher("PUSHER_APP_KEY", options)
   private val channel = pusher.subscribe("stock-channel")
 
 
@@ -82,7 +82,7 @@ class MainActivity : AppCompatActivity(), SharedPreferences.OnSharedPreferenceCh
 
   private fun setupPushNotifications() {
     PushNotifications.start(applicationContext,
-        "f21bbed5-454f-493d-944e-8376a613b05f")
+        "PUSHER_BEAMS_INSTANCE_ID")
     PushNotifications.subscribe("stocks")
   }
 
